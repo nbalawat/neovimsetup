@@ -1,6 +1,6 @@
 **IMPORTANT** Requires [Neovim v0.6.0](https://github.com/neovim/neovim/releases/tag/v0.6.0) or [Nightly](https://github.com/neovim/neovim/releases/tag/nightly). 
 ```
-git clone https://github.com/LunarVim/Neovim-from-scratch.git ~/.config/nvim
+git clone https://github.com/nbalawat/neovimsetup.git ~/.config/nvim
 ```
 
 Run `nvim` and wait for the plugins to be installed 
