@@ -41,6 +41,12 @@ for k, v in pairs(options) do
   vim.opt[k] = v
 end
 
+vim.g['netrw_banner'] = 0
+vim.g['netrw_liststyle'] = 3
+vim.g['netrw_browse_split'] = 4
+vim.g['netrw_winsize'] = 20
+
 vim.cmd "set whichwrap+=<,>,[,],h,l"
 vim.cmd [[set iskeyword+=-]]
 vim.cmd [[set formatoptions-=cro]] -- TODO: this doesn't seem to work
+vim.cmd 'source ~/.config/nvim/lua/user/netrw.vim'
